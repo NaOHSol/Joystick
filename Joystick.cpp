@@ -1,7 +1,7 @@
 /*********************************************************
   Joystick Library
-  By: NaOH_Sol
-  Email: 2732134399@qq.com
+  By: NaOHSol
+  Email: NaOHSol@gmail.com
 *********************************************************/
 
 #include "Joystick.h"
