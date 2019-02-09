@@ -21,8 +21,8 @@ class Joystick
     int _X_middle_value;
     int _Y_middle_value;
     int _dead_zone;
-    bool _Reverse_X;
-    bool _Reverse_Y;
+    bool _reverse_X;
+    bool _reverse_Y;
     int _X_buf;
     int _Y_buf;
     int _absX;
@@ -39,7 +39,7 @@ class Joystick
     void (*right_up)() = NULL;
     void (*left_down)() = NULL;
     void (*right_down)() = NULL;
-    Joystick(int X_pin = A0, int Y_pin = A1, int X_middle_value = 512, int Y_middle_value = 512, int dead_zone = 5, bool Reverse_X = false, bool Reverse_Y = false);
+    Joystick(int X_pin = A0, int Y_pin = A1, int X_middle_value = 512, int Y_middle_value = 512, int dead_zone = 5, bool reverse_X = false, bool reverse_Y = false);
     void P_Joystick();
     int Get_X();
     int Get_Y();
