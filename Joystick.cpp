@@ -23,8 +23,8 @@ void Joystick::P_Joystick()
 
   _X_buf -= _X_middle_value;
   _Y_buf -= _Y_middle_value;
-  if(_Reverse_X)_X_buf=-_X_buf;
-  if(_Reverse_Y)_Y_buf=-_Y_buf;
+  if(_reverse_X)_X_buf=-_X_buf;
+  if(_reverse_Y)_Y_buf=-_Y_buf;
 
   _absX = abs(_X_buf);
   _absY = abs(_Y_buf);
