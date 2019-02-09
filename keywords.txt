@@ -1,0 +1,12 @@
+Joystick	KEYWORD1
+P_Joystick	KEYWORD2
+Get_X	KEYWORD2
+Get_Y	KEYWORD2
+up	KEYWORD3
+down	KEYWORD3
+left	KEYWORD3
+right	KEYWORD3
+left_up	KEYWORD3
+right_up	KEYWORD3
+left_down	KEYWORD3
+right_down	KEYWORD3
