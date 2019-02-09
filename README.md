@@ -1,4 +1,4 @@
-# Joystick_Library
+# Joystick
 Arduino摇杆库
 
 Joystick Joystick(摇杆X轴模拟输入口, 摇杆Y轴模拟输入口, 摇杆X轴中间值, 摇杆Y轴中间值, 死区, 反转X轴, 反转Y轴);//创建并初始化摇杆名为Joystick的类
