@@ -6,7 +6,7 @@
 
 #include <Joystick.h>
 
-Joystick Joystick(A0, A1, 512, 512, 20);
+Joystick Joystick(A0, A1, 512, 512, 20, false, false);
 
 void setup()
 {
