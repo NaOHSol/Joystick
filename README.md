@@ -7,4 +7,4 @@ Joystick.P_Joystick();//获取摇杆模拟值并判断摇杆方位并调用函�
 
 Joystick.Get_X();//返回摇杆X轴模拟值(类型为 int 范围为 0-1023)
 
-Joystick.Get_Y();//返回摇杆Y轴模拟值(类型为 int 范围为;0-1023)
+Joystick.Get_Y();//返回摇杆Y轴模拟值(类型为 int 范围为 0-1023)
