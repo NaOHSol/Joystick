@@ -45,9 +45,9 @@ void Joystick::P_Joystick()
 }
 int Joystick::Get_X()
 {
-  return _X_buf;
+  return analogRead(_X_pin);
 }
 int Joystick::Get_Y()
 {
-  return _Y_buf;
+  return analogRead(_Y_pin);
 }
