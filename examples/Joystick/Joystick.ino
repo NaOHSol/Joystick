@@ -25,9 +25,10 @@ void setup()
 void loop()
 {
   Joystick.P_Joystick();
-  Serial.println(Joystick.Get_X());
+  Serial.print(Joystick.Get_X());
+  Serial.print("\t");
   Serial.println(Joystick.Get_Y());
-  delay(1000);
+  delay(100);
 }
 
 void Up()
