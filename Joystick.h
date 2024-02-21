@@ -34,7 +34,7 @@ class Joystick
     void (*left_down)() = NULL;
     void (*right_down)() = NULL;
     Joystick(int X_pin = A0, int Y_pin = A1, int X_middle_value = 512, int Y_middle_value = 512, int dead_zone = 5, bool reverse_X = false, bool reverse_Y = false);
-    void P_Joystick();
+    void run();
     int Get_X();
     int Get_Y();
 };
