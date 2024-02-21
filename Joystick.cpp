@@ -11,7 +11,7 @@ Joystick::Joystick(int X_pin, int Y_pin, int X_middle_value, int Y_middle_value,
   _reverse_Y = reverse_Y;
 }
 
-void Joystick::P_Joystick()
+void Joystick::run()
 {
   _X_buf = analogRead(_X_pin);
   _Y_buf = analogRead(_Y_pin);
