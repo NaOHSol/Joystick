@@ -1,9 +1,3 @@
-/*********************************************************
-  Joystick Library
-  By: NaOH_Sol
-  Email: 2732134399@qq.com
-*********************************************************/
-
 #include "Joystick.h"
 Joystick::Joystick(int X_pin, int Y_pin, int X_middle_value, int Y_middle_value, int dead_zone, bool reverse_X, bool reverse_Y)
 {
