@@ -18,7 +18,7 @@ void setup()
 
 void loop()
 {
-  Joystick.P_Joystick();
+  Joystick.run();
   Serial.print(Joystick.Get_X());
   Serial.print("\t");
   Serial.println(Joystick.Get_Y());
